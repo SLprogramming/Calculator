@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(130, 157, 199);
+}
+.mainContainer {
+    background-color: rgb(31, 73, 97);
+    padding: 5px;
+    width: 420px;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 5px 8px rgb(176, 176, 176);
+}
+.inputBarContainer {
+    width: 380px;
+    margin: 10px auto;
+}
+.inputBar {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    text-align: right;
+}
+.btn {
+    margin: 10px;
+    background-color: wheat;
+    width: 60px;
+    height: 40px;
+    
+    
+}
+.btn:hover{
+    background-color: rgb(212, 196, 166);
+    
+    
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
